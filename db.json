@@ -1,31 +1,18 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+[{
+    id: 1,
+    name: "first class",
+    students: [
+        {id: 1,name: "ABC"},
+        {id: 2,name: "DEF"},
+        {id: 3,name: "GHI"}
+       ]
+   }, {
+    id: 3,
+    name: "second class",
+    students: [
+        {id: 1,name: "RST"},
+        {id: 3,name: "XYZ"},
+        {id: 2,name: "UVW"}
+        ]
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+]
