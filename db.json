@@ -1,18 +1,18 @@
 [{
-    id: 1,
-    name: "first class",
-    students: [
-        {id: 1,name: "ABC"},
-        {id: 2,name: "DEF"},
-        {id: 3,name: "GHI"}
+    "id": 1,
+    "name": "Dept 1",
+    "employees": [
+        {"id": 1, "name": "ABC"},
+        {"id": 2, "name": "DEF"},
+        {"id": 3, "name": "GHI"}
        ]
    }, {
-    id: 3,
-    name: "second class",
-    students: [
-        {id: 1,name: "RST"},
-        {id: 3,name: "XYZ"},
-        {id: 2,name: "UVW"}
+    "id": 3,
+    "name": "Dept 2",
+    "employees": [
+        {"id": 1, "name": "RST"},
+        {"id": 3, "name": "XYZ"},
+        {"id": 2, "name": "UVW"}
         ]
     }
 ]
